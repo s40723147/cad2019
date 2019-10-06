@@ -45,9 +45,23 @@
 <p><a href="https://2019wcm.blogspot.com/2019/03/msys2-solvespace.html">https://2019wcm.blogspot.com/2019/03/msys2-solvespace.html</a></p>
 <p><a href="https://github.com/solvespace/solvespace">https://github.com/solvespace/solvespace</a></p>
 <h1>Q&amp;A</h1>
-<h2>T1</h2>
-<h4>Solvespace<span>  編譯過程中缺少檔案</span></h4>
+<p>這裡紀錄著40723147學員</p>
+<p>在進行Tasks時所發生的問題與解答‧</p><h2>T1</h2>
+<h4>(一) Solvespace<span>  編譯過程中缺少檔案</span></h4>
 <p><span></span>開啟Solvespace時出現缺少<span style="background-color: #ffff99;">libwinpthread-1. dll </span>檔案</p>
-<p></p>
+<p><img alt="" height="235" src="/images/缺少libwinpthread.png" width="416"/></p>
 <p>1.在E:\solvespace\build\bin中檢查缺少的檔案<span style="background-color: #ffff99;">libwinpthread-1. dll </span></p>
+<p>2.從Y:\tmp\solvespace\build\bin中尋找<span style="background-color: #ffff99;">libwinpthread-1. dll </span>將其複製到<span>E:\solvespace\build\bin中‧補足缺少的檔案‧</span></p>
+<h4><span>(二) Solvespace編譯過程中出現錯誤</span></h4>
+<p><span>當我們執行<span style="background-color: #ffff00;">mingw32-make</span>指令時會出現錯誤如圖:</span></p>
+<p><span><img caption="false" height="347" src="/images/713-714未加入照片.png" width="400"/></span></p>
+<p><span>原因是未將E:\cad\201906_fall\work\solvespace\extlib\angle\</span></p>
+<p><span style="background-color: #ffff00;">CMakeLists.txt <span style="background-color: #ffffff;">檔案中的<span style="color: #ff0000;">713行</span>與<span style="color: #ff0000;">714行</span>開頭加上</span> #符號</span></p>
+<p><span style="background-color: #00ffff;">(此路徑為待編譯solvespace中的對應路徑)</span></p>
+<p><span style="background-color: #00ffff;">(非原先在Y:\tmp\solvespace\extlib\angle中的<span style="background-color: #ffff00;">CMakeLists.txt </span>)</span></p>
+<p><span style="background-color: #00ffff;"></span></p>
+<p><img alt="" height="496" src="/images/713-714未加入.png" width="503"/></p>
+<p>圖中<span style="color: #ff0000;">713行</span>與<span style="color: #ff0000;">714行</span>並未再開頭加入 <span style="background-color: #ffff00;">#符號</span>故出現此錯誤</p>
 <p></p>
+<p><img alt="" height="494" src="/images/713-714已加入.png" width="502"/></p>
+<p>此圖<span style="color: #ff0000;">713行</span>與<span style="color: #ff0000;">714行</span>已加入 <span style="background-color: #ffff00;">#符號</span>便可以繼續編譯~</p>
