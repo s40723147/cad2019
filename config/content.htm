@@ -138,7 +138,8 @@
 <p><span>Inventor零組件繪製</span><span>   <span> </span><span style="text-decoration: underline;"> --範例10--</span></span></p>
 <p><span><span style="text-decoration: underline;"><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/DmlxZpRXpro" width="560"></iframe></span></span></p>
 <p><span><span style="text-decoration: underline;"></span></span></p>
-<p>參考鏈結 <a class="yt-simple-endpoint style-scope yt-formatted-string" href="https://www.youtube.com/redirect?redir_token=uTErqWX9BGo7ubZJFM7cherUoY98MTU3NzQ1OTM2NEAxNTc3MzcyOTY0&amp;event=video_description&amp;v=nb9pVtYPVsk&amp;q=http%3A%2F%2Fmde.tw%2Fcad2019%2Fcontent%2FCAD2CAE.html" rel="nofollow" spellcheck="false" target="_blank">http://mde.tw/cad2019/content/CAD2CAE...</a></p><h1>NX 12</h1>
+<p>參考鏈結 <a class="yt-simple-endpoint style-scope yt-formatted-string" href="https://www.youtube.com/redirect?redir_token=uTErqWX9BGo7ubZJFM7cherUoY98MTU3NzQ1OTM2NEAxNTc3MzcyOTY0&amp;event=video_description&amp;v=nb9pVtYPVsk&amp;q=http%3A%2F%2Fmde.tw%2Fcad2019%2Fcontent%2FCAD2CAE.html" rel="nofollow" spellcheck="false" target="_blank">http://mde.tw/cad2019/content/CAD2CAE...</a></p>
+<h1>NX 12</h1>
 <p><em><strong>CHAPTER 3 – TWO DIMENSIONAL SKETCHING</strong></em></p>
 <p><strong>二維草圖 </strong></p>
 <p>二維草圖在NX12中用於創建實體特徵</p>
@@ -181,7 +182,36 @@
 <p><img alt="" height="248" src="https://s40723147.github.io/cad2019ag4/images/%E7%AF%84%E4%BE%8B2.png" width="492"/></p>
 <p>可以藉由NX12建立工程圖，在工程界中進行溝通完成製造及設計‧</p>
 <p>完成建構實體--&gt;工程圖繪製--&gt;工程界的溝通方式</p>
-<h1>W16</h1>
+<h1>W17</h1>
+<p><span>W17歷程檢驗:</span></p>
+<p><span style="text-decoration: underline;"><strong>Building a clean model tutorial</strong></span></p>
+<p><span style="background-color: #00ffff;"><strong>Building the dynamic shapes</strong></span></p>
+<p><strong>If we want our robot to be dynamically enabled, i.e. react to collisions, fall, etc., then we need to create/configure the shapes appropriately: a shape can be:</strong></p>
+<p><img alt="cool" src="/static/tinymce4/tinymce/plugins/emoticons/img/smiley-cool.gif"/></p>
+<p>如果我們希望我們的機器人能夠動態啟用，即對碰撞，跌落等做出反應，那麼我們需要適當地創建/配置形狀：形狀可以是：</p>
+<p>dynamic or static(動態或靜態)</p>
+<p>a dynamic (or non-static) shape will fall and be influences by external forces/torques.</p>
+<p>動態（或非靜態）形狀會掉落並受到外力/扭矩的影響。</p>
+<p> A static (or non-dynamic) shape on the other hand, will stay in place, or follow the movement of its parent in the scene hierarchy.</p>
+<p>靜態（或非動態）形狀將保持不變，或跟隨其父級在場景層次中的移動。</p>
+<p></p>
+<p>respondable or non-respondable:(可響應或不可響應)</p>
+<p>a respondable shape will cause a collision reaction with other respondable shapes. </p>
+<p>可響應形狀會引起與其他可響應形狀的碰撞反應。</p>
+<p>non-respondable shapes will not compute a collision response if they collide with other shapes.</p>
+<p><span>不可響應</span>的形狀如果與其他形狀發生碰撞，則不會計算碰撞響應。</p>
+<p>Above two points are illustrated here. Respondable shapes should be as simple as possible, in order to allow for a fast and stable simulation. </p>
+<p>以上說明了兩點。 <span>可響應</span>的形狀應盡可能簡單，以實現快速穩定的仿真。</p>
+<p>A physics engine will be able to simulate following 5 types of shapes with various degrees of speed and stability:</p>
+<p> 物理引擎將能夠以不同的速度和穩定性模擬以下5種類型的形狀：</p>
+<p>Pure shapes: (純形狀)</p>
+<p>Pure compound shapes:(純複合形狀)</p>
+<p>Convex shapes:(凸形狀)</p>
+<p>Compound convex shapes, or convex decomposed shapes:(複合凸形狀或凸分解形狀)</p>
+<p>Random shapes:(隨機形狀)</p>
+<p> the order of preference would be: pure shapes, pure compound shapes, convex shapes, compound convex shapes, and finally random shapes.</p>
+<p>優先順序為：純形狀，純複合形狀，凸形，複合凸形，最後是隨機形狀。</p>
+<p>--------------------------------------------------------------------------------</p>
 <p>W16歷程檢驗:</p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/G9QywEhOCDc" width="560"></iframe></p>
 <p>倉儲連結:  個人歷程:<a href="https://github.com/s40723147/cad2019/commits/master">https://github.com/s40723147/cad2019/commits/master</a></p>
