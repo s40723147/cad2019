@@ -33,6 +33,18 @@
 <v t="leo.20191107033131.1"><vh>G4</vh>
 <v t="leo.20191107033131.2"><vh>封面投影片內容</vh></v>
 </v>
+<v t="leo.20200109170517.1"><vh>G5</vh>
+<v t="leo.20200109170517.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20200109172158.1"><vh>G6</vh>
+<v t="leo.20200109172158.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20200109173456.1"><vh>G7</vh>
+<v t="leo.20200109173456.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20200109174618.1"><vh>G8</vh>
+<v t="leo.20200109174618.2"><vh>封面投影片內容</vh></v>
+</v>
 <v t="leo.20180902120523.11"><vh>快捷鍵</vh>
 <v t="leo.20180902120523.12"><vh>投影片快捷鍵</vh></v>
 </v>
@@ -424,5 +436,63 @@ vertical: body pane on the botton</t>
 
 
 </t>
+<t tx="leo.20200109170517.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200109170517.2">## W10~W14
+* 不同軟體的[零組件繪製](https://s40723147.github.io/cad2019/content/%E9%9B%B6%E7%B5%84%E4%BB%B6%E7%B9%AA%E8%A3%BD.html)
+* 運用[【NX12】](https://www.youtube.com/channel/UCCsh_1xCiVRhiKTEWxbyVyg?feature=emb_subscribe_title)  [【Inventor2019】](https://www.youtube.com/watch?v=nb9pVtYPVsk)
+#### 【[Solvespace](https://s40723147.github.io/cad2019/content/%E7%B9%AA%E5%9C%96%E8%AA%8D%E8%AD%89%E7%AF%84%E4%BE%8B.html) 】 繪製零組件
+
+* [【NX12】教材閱讀 操作](https://s40723147.github.io/cad2019/content/NX%2012.html)
+#### [重點整理](https://s40723147.github.io/cad2019ag4/reveal/index.html#/3)</t>
+<t tx="leo.20200109172158.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200109172158.2">## W15歷程檢驗
+* 經由 [github倉儲](https://github.com/s40723147/cad2019) 的 [commits](https://github.com/s40723147/cad2019/commits/master) 依據驗收
+* 編輯影片、上字幕
+#### &lt;iframe src="https://player.vimeo.com/video/383711015" width="640" height="492" frameborder="0" allow="autoplay; fullscreen" allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20200109173456.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200109173456.2">## W16歷程檢驗
+* 利用 Solvespace 完成[簡化越野車](https://cad.onshape.com/documents/0c757e42f113318abade702c/w/83a3818a1aef5d4234265d9c/e/0284daee1c8866acdbcf0b9d) 零組件設計繪圖.
+* 以 STL 格式轉出後, 轉入 V-rep
+* 以WRL格式轉出後, 轉入 Webots    【 [對應網站](https://s40723147.github.io/cad2019/content/W17.html)】
+####  &lt;iframe src="https://player.vimeo.com/video/383712693" width="640" height="347" frameborder="0" allow="autoplay; fullscreen" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200109174618.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200109174618.2">## W17歷程檢驗
+* 協同任務:協同翻譯兩份教學內容
+#### 【[對應網站](https://s40723147.github.io/cad2019/content/W17.html )】【[分組](https://s40723147.github.io/cad2019ag4/content/W17%20%E5%8D%94%E5%90%8C%E4%BB%BB%E5%8B%99.html)】
+* 利用 Solvespace 或 NX12 將主連桿改為機械阻尼，各零件的尺寸標示工程圖、零件材料表轉入V-rep  
+&lt;iframe src="https://player.vimeo.com/video/383715348" width="550" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen&gt;&lt;/iframe&gt;    </t>
 </tnodes>
 </leo_file>
